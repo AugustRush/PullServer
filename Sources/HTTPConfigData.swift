@@ -23,31 +23,12 @@ func handler(data: [String:Any]) throws -> RequestHandler {
     }
 }
 
-var exampleJSON: [String:String] = ["name":"august rush",
-                   "year":"2017",
-                   "test":"4567890"];
-
-func handlerV0(data: [String:Any]) throws -> RequestHandler {
-    let rs = data.description
-    exampleJSON.updateValue(rs, forKey: "data")
-    
-    let content = try exampleJSON.jsonEncodedString()
-    
-    let handler: RequestHandler = { (request, response) in
-        response.setHeader(.contentType, value: "application/json")
-        response.appendBody(string: content)
-        response.completed()
-    }
-    
-    return handler
-}
-
 func handlerV1(data: [String:Any]) throws -> RequestHandler {
     
     let handler: RequestHandler = { (request, response) in
-        response.setHeader(.contentType, value: "application/json")
+        response.setHeader(.contentType, value: "text/html")
 
-        PSSpider.crawlHTML(fromURL: "http://www.hahao.cn/about/", completion: { (content) in
+        PSSpider.crawlHTML(fromURL: "http://www.hahao.cn/", completion: { (content) in
             response.appendBody(string: content)
             response.completed()
         }, failed: {(err) in
@@ -59,6 +40,19 @@ func handlerV1(data: [String:Any]) throws -> RequestHandler {
     return handler
 }
 
+func handlerPost(data: [String:Any]) throws -> RequestHandler {
+    
+    let handler: RequestHandler = {
+        request, response in
+        // Respond with a simple message.
+        response.setHeader(.contentType, value: "text/html")
+        response.appendBody(string: request.params().description)
+        // Ensure that response.completed() is called when your processing is done.
+        response.completed()
+    }
+    
+    return handler
+}
 
 let confData = [
     "servers": [
@@ -72,8 +66,8 @@ let confData = [
             "port":port1,
             "routes":[
                 ["method":"get", "uri":"/", "handler":handler],
-                ["method":"get", "uri":"/v0/*", "handler":handlerV0],
                 ["method":"get", "uri":"/v1/*", "handler":handlerV1],
+                ["method":"post", "uri":"/post", "handler":handlerPost],
                 ["method":"get", "uri":"/**", "handler":PerfectHTTPServer.HTTPHandler.staticFiles,
                  "documentRoot":"./webroot",
                  "allowResponseFilters":true]
