@@ -1,0 +1,6 @@
+[submodule "Alamofire"]
+	path = Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "XMLDictionary"]
+	path = XMLDictionary
+	url = https://github.com/nicklockwood/XMLDictionary.git
