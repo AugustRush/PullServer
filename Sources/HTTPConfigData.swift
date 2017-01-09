@@ -10,49 +10,29 @@ import Foundation
 import PerfectHTTP
 import PerfectHTTPServer
 
-// An example request handler.
-// This 'handler' function can be referenced directly in the configuration below.
-func handler(data: [String:Any]) throws -> RequestHandler {
-    return {
-        request, response in
-        // Respond with a simple message.
-        response.setHeader(.contentType, value: "text/html")
-        response.appendBody(string: "<html><title>Pull!</title><body>Hello, world 你好啊 2017!</body></html>")
-        // Ensure that response.completed() is called when your processing is done.
-        response.completed()
-    }
-}
-
-func handlerV1(data: [String:Any]) throws -> RequestHandler {
-    
-    let handler: RequestHandler = { (request, response) in
-        response.setHeader(.contentType, value: "text/html")
-
-        PSSpider.crawlHTML(fromURL: "http://www.hahao.cn/", completion: { (content) in
-            response.appendBody(string: content)
-            response.completed()
-        }, failed: {(err) in
-            response.appendBody(string: err.description())
-            response.completed()
-        })
-    }
-    
-    return handler
-}
-
-func handlerPost(data: [String:Any]) throws -> RequestHandler {
+// Request APIs
+func getChannel(data: [String:Any]) throws -> RequestHandler {
     
     let handler: RequestHandler = {
         request, response in
         // Respond with a simple message.
         response.setHeader(.contentType, value: "text/html")
-        response.appendBody(string: request.params().description)
+        response.appendBody(string: try! ["天气",
+                                          "文章收藏"].jsonEncodedString())
         // Ensure that response.completed() is called when your processing is done.
         response.completed()
     }
     
     return handler
 }
+
+/// All Routes
+let allRoutes = [
+    ["method":"post", "uri":"/getchannel", "handler":getChannel],
+    ["method":"get", "uri":"/**", "handler":PerfectHTTPServer.HTTPHandler.staticFiles,
+     "documentRoot":"./webroot",
+     "allowResponseFilters":true]
+]
 
 let confData = [
     "servers": [
@@ -64,14 +44,7 @@ let confData = [
         [
             "name":"localhost",
             "port":port1,
-            "routes":[
-                ["method":"get", "uri":"/", "handler":handler],
-                ["method":"get", "uri":"/v1/*", "handler":handlerV1],
-                ["method":"post", "uri":"/post", "handler":handlerPost],
-                ["method":"get", "uri":"/**", "handler":PerfectHTTPServer.HTTPHandler.staticFiles,
-                 "documentRoot":"./webroot",
-                 "allowResponseFilters":true]
-            ],
+            "routes":allRoutes,
             "filters":[
                 [
                     "type":"response",
@@ -85,10 +58,7 @@ let confData = [
         [
             "name":"localhost",
             "port":port2,
-            "routes":[
-                ["method":"get", "uri":"/**", "handler":PerfectHTTPServer.HTTPHandler.redirect,
-                 "base":"http://localhost:\(port1)"]
-            ]
+            "routes":allRoutes
         ]
     ]
 ]
