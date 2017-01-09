@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "98798e329bcd15575d59d00cd6f0482f"
-build_time: [537243461, 67979000]
-inputs:
-  "/Users/baidu/Downloads/PullServer-master/Packages/SQLite-2.0.1/Sources/SQLite/SQLite.swift": [537243434, 0]

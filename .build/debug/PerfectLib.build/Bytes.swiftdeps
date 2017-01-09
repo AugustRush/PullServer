@@ -7,23 +7,23 @@ provides-member:
 - ["C10PerfectLib5Bytes", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ArraySlice"
-- "Int"
-- !private ">>"
-- !private "+"
-- !private "+="
-- "UInt64"
-- "UInt32"
-- "UInt8"
-- "FloatLiteralType"
-- "Bytes"
-- "IntegerLiteralType"
 - "UInt16"
-- !private "&"
-- !private "-"
-- "AssignmentPrecedence"
-- !private "<<"
+- "UInt32"
+- "Bytes"
+- "UInt8"
 - !private "<"
+- !private ">>"
+- !private "+="
+- !private "<<"
+- "ArraySlice"
+- !private "-"
+- !private "+"
+- "AssignmentPrecedence"
+- "Int"
+- "FloatLiteralType"
+- "UInt64"
+- "IntegerLiteralType"
+- !private "&"
 depends-member:
 - !private ["Ps9AnyObject", "UInt16"]
 - !private ["Ps9AnyObject", "UInt32"]

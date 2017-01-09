@@ -1,53 +1,53 @@
 {
   "": {
-    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/master.swiftdeps"
+    "swift-dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/master.swiftdeps"
   },
-  "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HPACK.swift": {
-    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HPACK.d",
-    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HPACK.swift.o",
-    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HPACK~partial.swiftmodule",
-    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HPACK.swiftdeps"
+  "/Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HPACK.swift": {
+    "dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HPACK.d",
+    "object": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HPACK.swift.o",
+    "swiftmodule": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HPACK~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HPACK.swiftdeps"
   },
-  "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HTTP11Request.swift": {
-    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTP11Request.d",
-    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTP11Request.swift.o",
-    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTP11Request~partial.swiftmodule",
-    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTP11Request.swiftdeps"
+  "/Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HTTP11Request.swift": {
+    "dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTP11Request.d",
+    "object": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTP11Request.swift.o",
+    "swiftmodule": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTP11Request~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTP11Request.swiftdeps"
   },
-  "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HTTP11Response.swift": {
-    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTP11Response.d",
-    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTP11Response.swift.o",
-    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTP11Response~partial.swiftmodule",
-    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTP11Response.swiftdeps"
+  "/Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HTTP11Response.swift": {
+    "dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTP11Response.d",
+    "object": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTP11Response.swift.o",
+    "swiftmodule": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTP11Response~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTP11Response.swiftdeps"
   },
-  "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HTTP2.swift": {
-    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTP2.d",
-    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTP2.swift.o",
-    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTP2~partial.swiftmodule",
-    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTP2.swiftdeps"
+  "/Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HTTP2.swift": {
+    "dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTP2.d",
+    "object": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTP2.swift.o",
+    "swiftmodule": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTP2~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTP2.swiftdeps"
   },
-  "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HTTPContentCompression.swift": {
-    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPContentCompression.d",
-    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPContentCompression.swift.o",
-    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPContentCompression~partial.swiftmodule",
-    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPContentCompression.swiftdeps"
+  "/Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HTTPContentCompression.swift": {
+    "dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPContentCompression.d",
+    "object": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPContentCompression.swift.o",
+    "swiftmodule": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPContentCompression~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPContentCompression.swiftdeps"
   },
-  "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HTTPServer.swift": {
-    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPServer.d",
-    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPServer.swift.o",
-    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPServer~partial.swiftmodule",
-    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPServer.swiftdeps"
+  "/Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HTTPServer.swift": {
+    "dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPServer.d",
+    "object": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPServer.swift.o",
+    "swiftmodule": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPServer~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPServer.swiftdeps"
   },
-  "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HTTPServerEx.swift": {
-    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPServerEx.d",
-    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPServerEx.swift.o",
-    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPServerEx~partial.swiftmodule",
-    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPServerEx.swiftdeps"
+  "/Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HTTPServerEx.swift": {
+    "dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPServerEx.d",
+    "object": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPServerEx.swift.o",
+    "swiftmodule": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPServerEx~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPServerEx.swiftdeps"
   },
-  "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HTTPServerExConfig.swift": {
-    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPServerExConfig.d",
-    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPServerExConfig.swift.o",
-    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPServerExConfig~partial.swiftmodule",
-    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.build/HTTPServerExConfig.swiftdeps"
+  "/Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer/HTTPServerExConfig.swift": {
+    "dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPServerExConfig.d",
+    "object": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPServerExConfig.swift.o",
+    "swiftmodule": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPServerExConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Desktop/PullServer/.build/debug/PerfectHTTPServer.build/HTTPServerExConfig.swiftdeps"
   }
 }

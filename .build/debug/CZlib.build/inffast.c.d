@@ -1,10 +1,10 @@
 dependencies: \
-  /Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/inffast.c \
-  /Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/module.modulemap \
-  /Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include/module.modulemap \
-  /Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/zutil.h \
-  /Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/zlib.h \
-  /Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/zconf.h \
+  /Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/inffast.c \
+  /Users/baidu/Desktop/PullServer/Packages/COpenSSL-2.0.2/COpenSSL/include/module.modulemap \
+  /Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include/module.modulemap \
+  /Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/zutil.h \
+  /Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/zlib.h \
+  /Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/zconf.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/__stddef_max_align_t.h \
@@ -476,6 +476,6 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/vcmd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/libc.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sysexits.h \
-  /Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/inftrees.h \
-  /Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/inflate.h \
-  /Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/inffast.h
+  /Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/inftrees.h \
+  /Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/inflate.h \
+  /Users/baidu/Desktop/PullServer/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/inffast.h

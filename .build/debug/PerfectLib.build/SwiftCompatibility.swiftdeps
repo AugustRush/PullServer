@@ -6,16 +6,16 @@ provides-member:
 - ["SS", "range"]
 provides-dynamic-lookup:
 depends-top-level:
-- "TernaryPrecedence"
-- "Bool"
+- "BooleanLiteralType"
 - !private "!="
-- !private "..<"
+- !private "&&"
 - !private "=="
 - "AssignmentPrecedence"
-- !private "&&"
-- "Range"
 - "String"
-- "BooleanLiteralType"
+- "Range"
+- "Bool"
+- !private "..<"
+- "TernaryPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "endIndex"]
 - !private ["Ps9AnyObject", "index"]

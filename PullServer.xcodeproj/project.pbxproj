@@ -564,11 +564,9 @@
 		OBJ_1596 /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_772 /* PerfectHTTP.framework */; };
 		OBJ_1597 /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_773 /* CHTTPParser.framework */; };
 		OBJ_1598 /* CZlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_774 /* CZlib.framework */; };
-		OBJ_1611 /* SQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_759 /* SQLite.swift */; };
 		OBJ_1618 /* arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_761 /* arguments.swift */; };
 		OBJ_1619 /* HTTPConfigData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_762 /* HTTPConfigData.swift */; };
 		OBJ_1620 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_763 /* main.swift */; };
-		OBJ_1621 /* SqliteDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_764 /* SqliteDataHandler.swift */; };
 		OBJ_1623 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_768 /* PerfectLib.framework */; };
 		OBJ_1624 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_769 /* COpenSSL.framework */; };
 		OBJ_1625 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_770 /* PerfectThread.framework */; };
@@ -577,7 +575,6 @@
 		OBJ_1628 /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_773 /* CHTTPParser.framework */; };
 		OBJ_1629 /* CZlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_774 /* CZlib.framework */; };
 		OBJ_1630 /* PerfectHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_775 /* PerfectHTTPServer.framework */; };
-		OBJ_1631 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_776 /* SQLite.framework */; };
 		OBJ_800 /* a_bitstr.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* a_bitstr.c */; };
 		OBJ_801 /* a_bool.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* a_bool.c */; };
 		OBJ_802 /* a_bytes.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* a_bytes.c */; };
@@ -997,13 +994,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1578;
 			remoteInfo = PerfectHTTPServer;
-		};
-		97F21A981E1E4F1E00672986 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_1606;
-			remoteInfo = SQLite;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1727,12 +1717,10 @@
 		OBJ_755 /* HTTPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServer.swift; sourceTree = "<group>"; };
 		OBJ_756 /* HTTPServerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServerEx.swift; sourceTree = "<group>"; };
 		OBJ_757 /* HTTPServerExConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServerExConfig.swift; sourceTree = "<group>"; };
-		OBJ_759 /* SQLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite.swift; sourceTree = "<group>"; };
 		OBJ_76 /* bio_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_err.c; sourceTree = "<group>"; };
 		OBJ_761 /* arguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arguments.swift; sourceTree = "<group>"; };
 		OBJ_762 /* HTTPConfigData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPConfigData.swift; sourceTree = "<group>"; };
 		OBJ_763 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		OBJ_764 /* SqliteDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteDataHandler.swift; sourceTree = "<group>"; };
 		OBJ_766 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Alamofire; sourceTree = SOURCE_ROOT; };
 		OBJ_768 /* PerfectLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_769 /* COpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = COpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1743,7 +1731,6 @@
 		OBJ_773 /* CHTTPParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHTTPParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_774 /* CZlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CZlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_775 /* PerfectHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_776 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_777 /* PullServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = PullServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_78 /* bio_md.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_md.c; sourceTree = "<group>"; };
 		OBJ_79 /* bio_ndef.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_ndef.c; sourceTree = "<group>"; };
@@ -1842,13 +1829,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_1612 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		OBJ_1622 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
@@ -1861,7 +1841,6 @@
 				OBJ_1628 /* CHTTPParser.framework in Frameworks */,
 				OBJ_1629 /* CZlib.framework in Frameworks */,
 				OBJ_1630 /* PerfectHTTPServer.framework in Frameworks */,
-				OBJ_1631 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2604,7 +2583,6 @@
 				OBJ_723 /* CHTTPParser */,
 				OBJ_728 /* CZlib */,
 				OBJ_749 /* PerfectHTTPServer */,
-				OBJ_758 /* SQLite */,
 				OBJ_760 /* PullServer */,
 			);
 			path = Sources;
@@ -2729,15 +2707,6 @@
 			path = "Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_758 /* SQLite */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_759 /* SQLite.swift */,
-			);
-			name = SQLite;
-			path = "Packages/SQLite-2.0.1/Sources/SQLite";
-			sourceTree = SOURCE_ROOT;
-		};
 		OBJ_760 /* PullServer */ = {
 			isa = PBXGroup;
 			children = (
@@ -2746,7 +2715,6 @@
 				OBJ_761 /* arguments.swift */,
 				OBJ_762 /* HTTPConfigData.swift */,
 				OBJ_763 /* main.swift */,
-				OBJ_764 /* SqliteDataHandler.swift */,
 			);
 			name = PullServer;
 			path = Sources;
@@ -2770,7 +2738,6 @@
 				OBJ_773 /* CHTTPParser.framework */,
 				OBJ_774 /* CZlib.framework */,
 				OBJ_775 /* PerfectHTTPServer.framework */,
-				OBJ_776 /* SQLite.framework */,
 				OBJ_777 /* PullServer */,
 			);
 			name = Products;
@@ -2918,22 +2885,6 @@
 			productReference = OBJ_775 /* PerfectHTTPServer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_1606 /* SQLite */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_1607 /* Build configuration list for PBXNativeTarget "SQLite" */;
-			buildPhases = (
-				OBJ_1610 /* Sources */,
-				OBJ_1612 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SQLite;
-			productName = SQLite;
-			productReference = OBJ_776 /* SQLite.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		OBJ_1613 /* PullServer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_1614 /* Build configuration list for PBXNativeTarget "PullServer" */;
@@ -2952,7 +2903,6 @@
 				OBJ_1637 /* PBXTargetDependency */,
 				OBJ_1638 /* PBXTargetDependency */,
 				OBJ_1639 /* PBXTargetDependency */,
-				OBJ_1640 /* PBXTargetDependency */,
 			);
 			name = PullServer;
 			productName = PullServer;
@@ -3025,7 +2975,6 @@
 				OBJ_1528 /* CHTTPParser */,
 				OBJ_1546 /* CZlib */,
 				OBJ_1578 /* PerfectHTTPServer */,
-				OBJ_1606 /* SQLite */,
 				OBJ_1613 /* PullServer */,
 			);
 		};
@@ -3144,14 +3093,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_1610 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_1611 /* SQLite.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		OBJ_1617 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -3162,7 +3103,6 @@
 				OBJ_1618 /* arguments.swift in Sources */,
 				OBJ_1619 /* HTTPConfigData.swift in Sources */,
 				OBJ_1620 /* main.swift in Sources */,
-				OBJ_1621 /* SqliteDataHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4029,11 +3969,6 @@
 			target = OBJ_1578 /* PerfectHTTPServer */;
 			targetProxy = 97F21A971E1E4F1E00672986 /* PBXContainerItemProxy */;
 		};
-		OBJ_1640 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_1606 /* SQLite */;
-			targetProxy = 97F21A981E1E4F1E00672986 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -4333,52 +4268,6 @@
 			};
 			name = Release;
 		};
-		OBJ_1608 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"Packages/SQLite3-2.0.0",
-				);
-				INFOPLIST_FILE = PullServer.xcodeproj/SQLite_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SQLite;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				TARGET_NAME = SQLite;
-			};
-			name = Debug;
-		};
-		OBJ_1609 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"Packages/SQLite3-2.0.0",
-				);
-				INFOPLIST_FILE = PullServer.xcodeproj/SQLite_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SQLite;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				TARGET_NAME = SQLite;
-			};
-			name = Release;
-		};
 		OBJ_1615 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4621,15 +4510,6 @@
 			buildConfigurations = (
 				OBJ_1580 /* Debug */,
 				OBJ_1581 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_1607 /* Build configuration list for PBXNativeTarget "SQLite" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_1608 /* Debug */,
-				OBJ_1609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
