@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		977B7E611E232BCB00752646 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B7E571E232BCB00752646 /* Bytes.swift */; };
+		977B7E621E232BCB00752646 /* Dir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B7E581E232BCB00752646 /* Dir.swift */; };
+		977B7E631E232BCB00752646 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B7E591E232BCB00752646 /* File.swift */; };
+		977B7E641E232BCB00752646 /* JSONConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B7E5A1E232BCB00752646 /* JSONConvertible.swift */; };
+		977B7E651E232BCB00752646 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B7E5B1E232BCB00752646 /* Log.swift */; };
+		977B7E661E232BCB00752646 /* PerfectError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B7E5C1E232BCB00752646 /* PerfectError.swift */; };
+		977B7E671E232BCB00752646 /* PerfectServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B7E5D1E232BCB00752646 /* PerfectServer.swift */; };
+		977B7E681E232BCB00752646 /* SwiftCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B7E5E1E232BCB00752646 /* SwiftCompatibility.swift */; };
+		977B7E691E232BCB00752646 /* SysProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B7E5F1E232BCB00752646 /* SysProcess.swift */; };
+		977B7E6A1E232BCB00752646 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B7E601E232BCB00752646 /* Utilities.swift */; };
 		97F21AB81E1E5FD400672986 /* DispatchTime+Convenienced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F21AB71E1E5FD400672986 /* DispatchTime+Convenienced.swift */; };
 		97F21ABB1E1E634400672986 /* PSSpider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F21ABA1E1E634400672986 /* PSSpider.swift */; };
 		97F21AD61E1E78D500672986 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F21AD51E1E78D500672986 /* XMLParser.swift */; };
@@ -568,16 +578,6 @@
 		OBJ_1629 /* CZlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_774 /* CZlib.framework */; };
 		OBJ_1630 /* PerfectHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_775 /* PerfectHTTPServer.framework */; };
 		OBJ_1631 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_776 /* SQLite.framework */; };
-		OBJ_783 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Bytes.swift */; };
-		OBJ_784 /* Dir.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Dir.swift */; };
-		OBJ_785 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* File.swift */; };
-		OBJ_786 /* JSONConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* JSONConvertible.swift */; };
-		OBJ_787 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Log.swift */; };
-		OBJ_788 /* PerfectError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* PerfectError.swift */; };
-		OBJ_789 /* PerfectServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* PerfectServer.swift */; };
-		OBJ_790 /* SwiftCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* SwiftCompatibility.swift */; };
-		OBJ_791 /* SysProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* SysProcess.swift */; };
-		OBJ_792 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Utilities.swift */; };
 		OBJ_800 /* a_bitstr.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* a_bitstr.c */; };
 		OBJ_801 /* a_bool.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* a_bool.c */; };
 		OBJ_802 /* a_bytes.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* a_bytes.c */; };
@@ -1008,10 +1008,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		977B7E571E232BCB00752646 /* Bytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bytes.swift; path = "Packages/PerfectLib-2.0.5/Sources/PerfectLib/Bytes.swift"; sourceTree = SOURCE_ROOT; };
+		977B7E581E232BCB00752646 /* Dir.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dir.swift; path = "Packages/PerfectLib-2.0.5/Sources/PerfectLib/Dir.swift"; sourceTree = SOURCE_ROOT; };
+		977B7E591E232BCB00752646 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = "Packages/PerfectLib-2.0.5/Sources/PerfectLib/File.swift"; sourceTree = SOURCE_ROOT; };
+		977B7E5A1E232BCB00752646 /* JSONConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONConvertible.swift; path = "Packages/PerfectLib-2.0.5/Sources/PerfectLib/JSONConvertible.swift"; sourceTree = SOURCE_ROOT; };
+		977B7E5B1E232BCB00752646 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Log.swift; path = "Packages/PerfectLib-2.0.5/Sources/PerfectLib/Log.swift"; sourceTree = SOURCE_ROOT; };
+		977B7E5C1E232BCB00752646 /* PerfectError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PerfectError.swift; path = "Packages/PerfectLib-2.0.5/Sources/PerfectLib/PerfectError.swift"; sourceTree = SOURCE_ROOT; };
+		977B7E5D1E232BCB00752646 /* PerfectServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PerfectServer.swift; path = "Packages/PerfectLib-2.0.5/Sources/PerfectLib/PerfectServer.swift"; sourceTree = SOURCE_ROOT; };
+		977B7E5E1E232BCB00752646 /* SwiftCompatibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftCompatibility.swift; path = "Packages/PerfectLib-2.0.5/Sources/PerfectLib/SwiftCompatibility.swift"; sourceTree = SOURCE_ROOT; };
+		977B7E5F1E232BCB00752646 /* SysProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SysProcess.swift; path = "Packages/PerfectLib-2.0.5/Sources/PerfectLib/SysProcess.swift"; sourceTree = SOURCE_ROOT; };
+		977B7E601E232BCB00752646 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = "Packages/PerfectLib-2.0.5/Sources/PerfectLib/Utilities.swift"; sourceTree = SOURCE_ROOT; };
 		97F21AB71E1E5FD400672986 /* DispatchTime+Convenienced.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchTime+Convenienced.swift"; sourceTree = "<group>"; };
 		97F21ABA1E1E634400672986 /* PSSpider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSSpider.swift; sourceTree = "<group>"; };
 		97F21AD51E1E78D500672986 /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
-		OBJ_10 /* Dir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dir.swift; sourceTree = "<group>"; };
 		OBJ_100 /* bn_mul.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_mul.c; sourceTree = "<group>"; };
 		OBJ_101 /* bn_nist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_nist.c; sourceTree = "<group>"; };
 		OBJ_102 /* bn_prime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_prime.c; sourceTree = "<group>"; };
@@ -1022,7 +1031,6 @@
 		OBJ_107 /* bn_sqr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_sqr.c; sourceTree = "<group>"; };
 		OBJ_108 /* bn_sqrt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_sqrt.c; sourceTree = "<group>"; };
 		OBJ_109 /* bn_word.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_word.c; sourceTree = "<group>"; };
-		OBJ_11 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		OBJ_110 /* bn_x931p.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_x931p.c; sourceTree = "<group>"; };
 		OBJ_111 /* bss_acpt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_acpt.c; sourceTree = "<group>"; };
 		OBJ_112 /* bss_bio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_bio.c; sourceTree = "<group>"; };
@@ -1033,7 +1041,6 @@
 		OBJ_117 /* bss_log.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_log.c; sourceTree = "<group>"; };
 		OBJ_118 /* bss_mem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_mem.c; sourceTree = "<group>"; };
 		OBJ_119 /* bss_null.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_null.c; sourceTree = "<group>"; };
-		OBJ_12 /* JSONConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConvertible.swift; sourceTree = "<group>"; };
 		OBJ_120 /* bss_sock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_sock.c; sourceTree = "<group>"; };
 		OBJ_121 /* buf_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = buf_err.c; sourceTree = "<group>"; };
 		OBJ_122 /* buf_str.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = buf_str.c; sourceTree = "<group>"; };
@@ -1044,7 +1051,6 @@
 		OBJ_127 /* c_allc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_allc.c; sourceTree = "<group>"; };
 		OBJ_128 /* c_alld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_alld.c; sourceTree = "<group>"; };
 		OBJ_129 /* c_cfb64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_cfb64.c; sourceTree = "<group>"; };
-		OBJ_13 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		OBJ_130 /* c_ecb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_ecb.c; sourceTree = "<group>"; };
 		OBJ_131 /* c_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_enc.c; sourceTree = "<group>"; };
 		OBJ_132 /* c_ofb64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_ofb64.c; sourceTree = "<group>"; };
@@ -1055,7 +1061,6 @@
 		OBJ_137 /* cbc128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cbc128.c; sourceTree = "<group>"; };
 		OBJ_138 /* cbc3_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cbc3_enc.c; sourceTree = "<group>"; };
 		OBJ_139 /* cbc_cksm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cbc_cksm.c; sourceTree = "<group>"; };
-		OBJ_14 /* PerfectError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectError.swift; sourceTree = "<group>"; };
 		OBJ_140 /* cbc_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cbc_enc.c; sourceTree = "<group>"; };
 		OBJ_141 /* ccm128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ccm128.c; sourceTree = "<group>"; };
 		OBJ_142 /* cfb128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cfb128.c; sourceTree = "<group>"; };
@@ -1066,7 +1071,6 @@
 		OBJ_147 /* cm_pmeth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cm_pmeth.c; sourceTree = "<group>"; };
 		OBJ_148 /* cmac.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmac.c; sourceTree = "<group>"; };
 		OBJ_149 /* cmll_cbc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmll_cbc.c; sourceTree = "<group>"; };
-		OBJ_15 /* PerfectServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectServer.swift; sourceTree = "<group>"; };
 		OBJ_150 /* cmll_cfb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmll_cfb.c; sourceTree = "<group>"; };
 		OBJ_151 /* cmll_ctr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmll_ctr.c; sourceTree = "<group>"; };
 		OBJ_152 /* cmll_ecb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmll_ecb.c; sourceTree = "<group>"; };
@@ -1077,7 +1081,6 @@
 		OBJ_157 /* cms_att.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_att.c; sourceTree = "<group>"; };
 		OBJ_158 /* cms_cd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_cd.c; sourceTree = "<group>"; };
 		OBJ_159 /* cms_dd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_dd.c; sourceTree = "<group>"; };
-		OBJ_16 /* SwiftCompatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCompatibility.swift; sourceTree = "<group>"; };
 		OBJ_160 /* cms_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_enc.c; sourceTree = "<group>"; };
 		OBJ_161 /* cms_env.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_env.c; sourceTree = "<group>"; };
 		OBJ_162 /* cms_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_err.c; sourceTree = "<group>"; };
@@ -1088,7 +1091,6 @@
 		OBJ_167 /* cms_pwri.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_pwri.c; sourceTree = "<group>"; };
 		OBJ_168 /* cms_sd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_sd.c; sourceTree = "<group>"; };
 		OBJ_169 /* cms_smime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_smime.c; sourceTree = "<group>"; };
-		OBJ_17 /* SysProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysProcess.swift; sourceTree = "<group>"; };
 		OBJ_170 /* comp_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = comp_err.c; sourceTree = "<group>"; };
 		OBJ_171 /* comp_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = comp_lib.c; sourceTree = "<group>"; };
 		OBJ_172 /* conf_api.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = conf_api.c; sourceTree = "<group>"; };
@@ -1099,7 +1101,6 @@
 		OBJ_177 /* conf_mod.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = conf_mod.c; sourceTree = "<group>"; };
 		OBJ_178 /* conf_sap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = conf_sap.c; sourceTree = "<group>"; };
 		OBJ_179 /* cpt_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cpt_err.c; sourceTree = "<group>"; };
-		OBJ_18 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		OBJ_180 /* cryptlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cryptlib.c; sourceTree = "<group>"; };
 		OBJ_181 /* ctr128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ctr128.c; sourceTree = "<group>"; };
 		OBJ_182 /* cversion.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cversion.c; sourceTree = "<group>"; };
@@ -1756,7 +1757,6 @@
 		OBJ_87 /* bn_ctx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_ctx.c; sourceTree = "<group>"; };
 		OBJ_88 /* bn_depr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_depr.c; sourceTree = "<group>"; };
 		OBJ_89 /* bn_div.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_div.c; sourceTree = "<group>"; };
-		OBJ_9 /* Bytes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bytes.swift; sourceTree = "<group>"; };
 		OBJ_90 /* bn_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_err.c; sourceTree = "<group>"; };
 		OBJ_91 /* bn_exp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_exp.c; sourceTree = "<group>"; };
 		OBJ_92 /* bn_exp2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_exp2.c; sourceTree = "<group>"; };
@@ -2582,7 +2582,7 @@
 			path = "Packages/COpenSSL-2.0.2/COpenSSL";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -2591,7 +2591,6 @@
 				OBJ_766 /* Alamofire */,
 				OBJ_767 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -2780,16 +2779,16 @@
 		OBJ_8 /* PerfectLib */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* Bytes.swift */,
-				OBJ_10 /* Dir.swift */,
-				OBJ_11 /* File.swift */,
-				OBJ_12 /* JSONConvertible.swift */,
-				OBJ_13 /* Log.swift */,
-				OBJ_14 /* PerfectError.swift */,
-				OBJ_15 /* PerfectServer.swift */,
-				OBJ_16 /* SwiftCompatibility.swift */,
-				OBJ_17 /* SysProcess.swift */,
-				OBJ_18 /* Utilities.swift */,
+				977B7E571E232BCB00752646 /* Bytes.swift */,
+				977B7E581E232BCB00752646 /* Dir.swift */,
+				977B7E591E232BCB00752646 /* File.swift */,
+				977B7E5A1E232BCB00752646 /* JSONConvertible.swift */,
+				977B7E5B1E232BCB00752646 /* Log.swift */,
+				977B7E5C1E232BCB00752646 /* PerfectError.swift */,
+				977B7E5D1E232BCB00752646 /* PerfectServer.swift */,
+				977B7E5E1E232BCB00752646 /* SwiftCompatibility.swift */,
+				977B7E5F1E232BCB00752646 /* SysProcess.swift */,
+				977B7E601E232BCB00752646 /* Utilities.swift */,
 			);
 			name = PerfectLib;
 			path = "Packages/PerfectLib-2.0.4/Sources/PerfectLib";
@@ -3013,7 +3012,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_767 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -3171,16 +3170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_783 /* Bytes.swift in Sources */,
-				OBJ_784 /* Dir.swift in Sources */,
-				OBJ_785 /* File.swift in Sources */,
-				OBJ_786 /* JSONConvertible.swift in Sources */,
-				OBJ_787 /* Log.swift in Sources */,
-				OBJ_788 /* PerfectError.swift in Sources */,
-				OBJ_789 /* PerfectServer.swift in Sources */,
-				OBJ_790 /* SwiftCompatibility.swift in Sources */,
-				OBJ_791 /* SysProcess.swift in Sources */,
-				OBJ_792 /* Utilities.swift in Sources */,
+				977B7E661E232BCB00752646 /* PerfectError.swift in Sources */,
+				977B7E671E232BCB00752646 /* PerfectServer.swift in Sources */,
+				977B7E681E232BCB00752646 /* SwiftCompatibility.swift in Sources */,
+				977B7E651E232BCB00752646 /* Log.swift in Sources */,
+				977B7E611E232BCB00752646 /* Bytes.swift in Sources */,
+				977B7E641E232BCB00752646 /* JSONConvertible.swift in Sources */,
+				977B7E631E232BCB00752646 /* File.swift in Sources */,
+				977B7E691E232BCB00752646 /* SysProcess.swift in Sources */,
+				977B7E6A1E232BCB00752646 /* Utilities.swift in Sources */,
+				977B7E621E232BCB00752646 /* Dir.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

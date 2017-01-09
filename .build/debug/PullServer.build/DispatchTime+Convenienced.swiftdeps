@@ -1,0 +1,236 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "V8Dispatch12DispatchTime"
+provides-member:
+- ["V8Dispatch12DispatchTime", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Double"
+- "Int"
+- "ExpressibleByFloatLiteral"
+- !private "*"
+- !private "+"
+- "AssignmentPrecedence"
+- "DispatchTime"
+- "ExpressibleByIntegerLiteral"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "milliseconds"]
+- !private ["Ps16AbsoluteValuable", "seconds"]
+- !private ["Ps19BinaryFloatingPoint", "milliseconds"]
+- !private ["Ps19BinaryFloatingPoint", "seconds"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "milliseconds"]
+- !private ["Ps7CVarArg", "seconds"]
+- !private ["Ps10Comparable", "DispatchTime"]
+- ["Ps10Comparable", "FloatLiteralType"]
+- !private ["Ps10Comparable", "Int"]
+- ["Ps10Comparable", "IntegerLiteralType"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "milliseconds"]
+- !private ["Ps10Comparable", "now"]
+- !private ["Ps10Comparable", "seconds"]
+- !private ["Ps28CustomDebugStringConvertible", "milliseconds"]
+- !private ["Ps28CustomDebugStringConvertible", "seconds"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "milliseconds"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "seconds"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "milliseconds"]
+- !private ["Ps17CustomReflectable", "seconds"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "milliseconds"]
+- !private ["Ps23CustomStringConvertible", "seconds"]
+- !private ["V8Dispatch12DispatchTime", "DispatchTime"]
+- ["V8Dispatch12DispatchTime", "Double"]
+- ["V8Dispatch12DispatchTime", "FloatLiteralType"]
+- ["V8Dispatch12DispatchTime", "Int"]
+- ["V8Dispatch12DispatchTime", "IntegerLiteralType"]
+- ["V8Dispatch12DispatchTime", "deinit"]
+- ["V8Dispatch12DispatchTime", "init"]
+- !private ["V8Dispatch12DispatchTime", "now"]
+- ["O8Dispatch20DispatchTimeInterval", "deinit"]
+- !private ["O8Dispatch20DispatchTimeInterval", "milliseconds"]
+- !private ["O8Dispatch20DispatchTimeInterval", "seconds"]
+- ["Sd", "deinit"]
+- !private ["Sd", "milliseconds"]
+- !private ["Sd", "seconds"]
+- !private ["Ps9Equatable", "DispatchTime"]
+- ["Ps9Equatable", "FloatLiteralType"]
+- !private ["Ps9Equatable", "Int"]
+- ["Ps9Equatable", "IntegerLiteralType"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "milliseconds"]
+- !private ["Ps9Equatable", "now"]
+- !private ["Ps9Equatable", "seconds"]
+- !private ["Ps25ExpressibleByFloatLiteral", "DispatchTime"]
+- ["Ps25ExpressibleByFloatLiteral", "FloatLiteralType"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Int"]
+- ["Ps25ExpressibleByFloatLiteral", "IntegerLiteralType"]
+- ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "milliseconds"]
+- !private ["Ps25ExpressibleByFloatLiteral", "now"]
+- !private ["Ps25ExpressibleByFloatLiteral", "seconds"]
+- ["Ps25ExpressibleByFloatLiteral", ""]
+- !private ["Ps27ExpressibleByIntegerLiteral", "DispatchTime"]
+- ["Ps27ExpressibleByIntegerLiteral", "FloatLiteralType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Int"]
+- ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "milliseconds"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "now"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "seconds"]
+- ["Ps27ExpressibleByIntegerLiteral", ""]
+- !private ["Ps13FloatingPoint", "milliseconds"]
+- !private ["Ps13FloatingPoint", "seconds"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "milliseconds"]
+- !private ["Ps8Hashable", "seconds"]
+- ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "milliseconds"]
+- !private ["P10PerfectLib15JSONConvertible", "seconds"]
+- !private ["Ps25LosslessStringConvertible", "milliseconds"]
+- !private ["Ps25LosslessStringConvertible", "seconds"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps12SignedNumber", "milliseconds"]
+- !private ["Ps12SignedNumber", "seconds"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "milliseconds"]
+- !private ["Ps10Strideable", "seconds"]
+- !private ["Ps15_CVarArgAligned", "milliseconds"]
+- !private ["Ps15_CVarArgAligned", "seconds"]
+- !private ["Ps22_CVarArgPassedAsDouble", "milliseconds"]
+- !private ["Ps22_CVarArgPassedAsDouble", "seconds"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "milliseconds"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "seconds"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "milliseconds"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "seconds"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "milliseconds"]
+- !private ["Ps9_Hashable", "seconds"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "milliseconds"]
+- !private ["Ps21_ObjectiveCBridgeable", "seconds"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "milliseconds"]
+- !private ["Ps11_Strideable", "seconds"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "V8Dispatch12DispatchTime"
+- "O8Dispatch20DispatchTimeInterval"
+- "Sd"
+- "Ps9Equatable"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps13FloatingPoint"
+- !private "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "P10PerfectLib15JSONConvertible"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTPServer.swiftmodule"
+- "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CHTTPParser/include/http_parser.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include/module.modulemap"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/module.modulemap"
+- "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CHTTPParser/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include/../inftrees.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include/../zutil.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include/../zlib.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include/../zconf.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include/czlib.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectHTTP.swiftmodule"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../srtp.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl23.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../pqueue.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../dtls1.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../tls1.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl3.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl2.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../opensslconf.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../kssl.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../hmac.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../pem2.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../e_os2.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../pem.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../pkcs7.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../x509_vfy.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../sha.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../dh.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../dsa.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../rsa.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../ecdh.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../ecdsa.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../ec.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../bn.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../asn1.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../obj_mac.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../objects.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../evp.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../buffer.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../x509.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../comp.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../lhash.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../err.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../symhacks.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../ossl_typ.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../opensslv.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../safestack.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../stack.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../crypto.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/../bio.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/COpenSSL-2.0.2/COpenSSL/include/openssl.h"
+- "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectLib.swiftmodule"
+- "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectNet.swiftmodule"
+- "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectThread.swiftmodule"
+- "/Users/baidu/Downloads/PullServer-master/Packages/SQLite3-2.0.0/p_sqlite3.h"
+- "/Users/baidu/Downloads/PullServer-master/Packages/SQLite3-2.0.0/module.modulemap"
+interface-hash: "19706ff454c5050e2a0b4932780b85f9"

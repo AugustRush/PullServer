@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "cb8c7e87c44728aaf2110099cb567441"
+build_time: [537243473, 50818000]
+inputs:
+  "/Users/baidu/Downloads/PullServer-master/Sources/arguments.swift": [537047312, 0]
+  "/Users/baidu/Downloads/PullServer-master/Sources/DispatchTime+Convenienced.swift": [537047312, 0]
+  "/Users/baidu/Downloads/PullServer-master/Sources/HTTPConfigData.swift": [537047312, 0]
+  "/Users/baidu/Downloads/PullServer-master/Sources/main.swift": [537047312, 0]
+  "/Users/baidu/Downloads/PullServer-master/Sources/PSSpider.swift": [537047312, 0]
+  "/Users/baidu/Downloads/PullServer-master/Sources/SqliteDataHandler.swift": [537047312, 0]
+  "/Users/baidu/Downloads/PullServer-master/Sources/XMLParser.swift": [537047312, 0]

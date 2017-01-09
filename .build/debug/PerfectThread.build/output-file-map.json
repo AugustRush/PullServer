@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectThread.build/master.swiftdeps"
+  },
+  "/Users/baidu/Downloads/PullServer-master/Packages/PerfectThread-2.0.4/Sources/Threading.swift": {
+    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectThread.build/Threading.d",
+    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectThread.build/Threading.swift.o",
+    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectThread.build/Threading~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectThread.build/Threading.swiftdeps"
+  },
+  "/Users/baidu/Downloads/PullServer-master/Packages/PerfectThread-2.0.4/Sources/ThreadQueue.swift": {
+    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectThread.build/ThreadQueue.d",
+    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectThread.build/ThreadQueue.swift.o",
+    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectThread.build/ThreadQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PerfectThread.build/ThreadQueue.swiftdeps"
+  }
+}

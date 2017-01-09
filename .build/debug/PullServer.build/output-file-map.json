@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/master.swiftdeps"
+  },
+  "/Users/baidu/Downloads/PullServer-master/Sources/arguments.swift": {
+    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/arguments.d",
+    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/arguments.swift.o",
+    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/arguments~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/arguments.swiftdeps"
+  },
+  "/Users/baidu/Downloads/PullServer-master/Sources/DispatchTime+Convenienced.swift": {
+    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/DispatchTime+Convenienced.d",
+    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/DispatchTime+Convenienced.swift.o",
+    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/DispatchTime+Convenienced~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/DispatchTime+Convenienced.swiftdeps"
+  },
+  "/Users/baidu/Downloads/PullServer-master/Sources/HTTPConfigData.swift": {
+    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/HTTPConfigData.d",
+    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/HTTPConfigData.swift.o",
+    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/HTTPConfigData~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/HTTPConfigData.swiftdeps"
+  },
+  "/Users/baidu/Downloads/PullServer-master/Sources/main.swift": {
+    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/main.d",
+    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/main.swift.o",
+    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/main.swiftdeps"
+  },
+  "/Users/baidu/Downloads/PullServer-master/Sources/PSSpider.swift": {
+    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/PSSpider.d",
+    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/PSSpider.swift.o",
+    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/PSSpider~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/PSSpider.swiftdeps"
+  },
+  "/Users/baidu/Downloads/PullServer-master/Sources/SqliteDataHandler.swift": {
+    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/SqliteDataHandler.d",
+    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/SqliteDataHandler.swift.o",
+    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/SqliteDataHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/SqliteDataHandler.swiftdeps"
+  },
+  "/Users/baidu/Downloads/PullServer-master/Sources/XMLParser.swift": {
+    "dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/XMLParser.d",
+    "object": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/XMLParser.swift.o",
+    "swiftmodule": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/XMLParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/baidu/Downloads/PullServer-master/.build/debug/PullServer.build/XMLParser.swiftdeps"
+  }
+}

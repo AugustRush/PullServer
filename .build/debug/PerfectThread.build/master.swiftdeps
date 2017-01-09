@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "f1176257714a501b90312f51f9318117"
+build_time: [537243460, 967379000]
+inputs:
+  "/Users/baidu/Downloads/PullServer-master/Packages/PerfectThread-2.0.4/Sources/Threading.swift": [537243429, 0]
+  "/Users/baidu/Downloads/PullServer-master/Packages/PerfectThread-2.0.4/Sources/ThreadQueue.swift": [537243429, 0]
