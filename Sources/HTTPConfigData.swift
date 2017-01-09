@@ -26,9 +26,24 @@ func getChannel(data: [String:Any]) throws -> RequestHandler {
     return handler
 }
 
+func createChannel(data: [String:Any]) throws -> RequestHandler {
+    
+    let handler: RequestHandler = {
+        request, response in
+        // Respond with a simple message.
+        response.setHeader(.contentType, value: "text/html")
+        response.appendBody(string: try! ["errorCode":"0"].jsonEncodedString())
+        // Ensure that response.completed() is called when your processing is done.
+        response.completed()
+    }
+    
+    return handler
+}
+
 /// All Routes
 let allRoutes = [
     ["method":"post", "uri":"/getchannel", "handler":getChannel],
+    ["method":"post", "uri":"/createchannel", "handler":createChannel],
     ["method":"get", "uri":"/**", "handler":PerfectHTTPServer.HTTPHandler.staticFiles,
      "documentRoot":"./webroot",
      "allowResponseFilters":true]

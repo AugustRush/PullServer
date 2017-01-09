@@ -1721,7 +1721,6 @@
 		OBJ_761 /* arguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arguments.swift; sourceTree = "<group>"; };
 		OBJ_762 /* HTTPConfigData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPConfigData.swift; sourceTree = "<group>"; };
 		OBJ_763 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		OBJ_766 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Alamofire; sourceTree = SOURCE_ROOT; };
 		OBJ_768 /* PerfectLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_769 /* COpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = COpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_77 /* bio_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_lib.c; sourceTree = "<group>"; };
@@ -2567,7 +2566,6 @@
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_765 /* Tests */,
-				OBJ_766 /* Alamofire */,
 				OBJ_767 /* Products */,
 			);
 			sourceTree = "<group>";
