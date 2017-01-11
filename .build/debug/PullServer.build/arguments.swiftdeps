@@ -5,23 +5,23 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- !private "exit"
-- !private "Dictionary"
+- !private "||"
 - !private "CommandLine"
 - !private "StringLiteralType"
-- !private "??"
-- !private "print"
+- !private ">"
 - !private "File"
 - !private "!"
+- !private "Dictionary"
+- !private "!="
 - "HTTPServer"
 - "configureServer"
-- !private "||"
+- !private "UInt16"
 - !private "String"
+- !private "exit"
 - "AssignmentPrecedence"
 - !private "=="
-- !private ">"
-- !private "!="
-- !private "UInt16"
+- !private "print"
+- !private "??"
 depends-member:
 - !private ["Ps9AnyObject", "documentRoot"]
 - !private ["Ps9AnyObject", "exists"]
@@ -526,4 +526,5 @@ depends-external:
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectLib.swiftmodule"
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectNet.swiftmodule"
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectThread.swiftmodule"
+- "/Users/baidu/Desktop/PullServer/Packages/mysqlclient-2.0.0/module.modulemap"
 interface-hash: "88d7dc609e2e098c6722ec1539a7879d"

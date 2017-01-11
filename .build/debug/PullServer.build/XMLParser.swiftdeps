@@ -80,4 +80,5 @@ depends-external:
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectLib.swiftmodule"
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectNet.swiftmodule"
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectThread.swiftmodule"
+- "/Users/baidu/Desktop/PullServer/Packages/mysqlclient-2.0.0/module.modulemap"
 interface-hash: "e6f9af397ac37df7f5445f606ca7e8b5"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "9732194fe7a81258d437b8ab80c85c1e"
+build_time: [537442325, 800735000]
+inputs:
+  "/Users/baidu/Desktop/PullServer/Packages/MySQL-2.0.4/Sources/MySQL/MySQL.swift": [537442301, 0]

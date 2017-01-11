@@ -11,18 +11,18 @@ provides-member:
 - ["C10PullServer8PSSpider", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- !private "URL"
-- "String"
-- "SpiderError"
 - !private "NSData"
 - "Void"
-- "Error"
+- !private "StringLiteralType"
+- !private "URL"
+- "SpiderError"
 - "PSSpider"
+- "String"
+- !private "CastingPrecedence"
+- "Error"
+- "=="
 - !private "DispatchQueue"
 - !private "Data"
-- "=="
-- !private "CastingPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "DispatchQueue"]
 - !private ["Ps9AnyObject", "NSData"]
@@ -316,4 +316,5 @@ depends-external:
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectLib.swiftmodule"
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectNet.swiftmodule"
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectThread.swiftmodule"
+- "/Users/baidu/Desktop/PullServer/Packages/mysqlclient-2.0.0/module.modulemap"
 interface-hash: "87a28c4f79ecbd7ce5aa7157e967eb7e"

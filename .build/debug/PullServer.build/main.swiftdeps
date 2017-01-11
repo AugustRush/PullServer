@@ -6,12 +6,12 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "HTTPServer"
-- "port2"
-- "port1"
-- "fatalError"
-- "FloatLiteralType"
 - "confData"
+- "fatalError"
+- "HTTPServer"
+- "port1"
+- "FloatLiteralType"
+- "port2"
 - "IntegerLiteralType"
 depends-member:
 - ["Ps9AnyObject", "init"]
@@ -191,4 +191,5 @@ depends-external:
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectLib.swiftmodule"
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectNet.swiftmodule"
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectThread.swiftmodule"
+- "/Users/baidu/Desktop/PullServer/Packages/mysqlclient-2.0.0/module.modulemap"
 interface-hash: "19b2056d9fe4123b0185cce6550f5427"

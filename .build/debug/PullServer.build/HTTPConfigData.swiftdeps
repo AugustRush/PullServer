@@ -1,116 +1,104 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "handler"
-- "handlerV1"
-- "handlerPost"
+- "getChannel"
+- "createChannel"
+- "allRoutes"
 - "confData"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "RequestHandler"
-- "handlerV1"
-- "BooleanLiteralType"
-- "StringLiteralType"
-- "Array"
-- "port2"
-- "confData"
-- !private "PSSpider"
-- "handlerPost"
-- "PerfectHTTPServer"
+- "getChannel"
 - "String"
-- "handler"
+- "createChannel"
+- "confData"
+- "allRoutes"
+- "PerfectHTTPServer"
+- "Array"
+- "RequestHandler"
+- "BooleanLiteralType"
 - "Dictionary"
+- "StringLiteralType"
 - "port1"
+- "port2"
+- "UnicodeScalarType"
 depends-member:
-- !private ["Ps9AnyObject", "crawlHTML"]
 - ["Ps9AnyObject", "init"]
 - ["Sa", "Element"]
 - ["Sa", "deinit"]
-- !private ["Sa", "description"]
+- !private ["Sa", "jsonEncodedString"]
 - ["Ps23BidirectionalCollection", "Element"]
-- !private ["Ps23BidirectionalCollection", "description"]
+- !private ["Ps23BidirectionalCollection", "jsonEncodedString"]
 - ["Ps22BidirectionalIndexable", "Element"]
-- !private ["Ps22BidirectionalIndexable", "description"]
+- !private ["Ps22BidirectionalIndexable", "jsonEncodedString"]
 - ["Sb", "deinit"]
 - ["Ps7CVarArg", "Element"]
 - ["Ps7CVarArg", "Key"]
 - ["Ps7CVarArg", "Value"]
-- !private ["Ps7CVarArg", "description"]
 - ["Ps7CVarArg", "init"]
-- ["Vs9Character", "deinit"]
+- !private ["Ps7CVarArg", "jsonEncodedString"]
 - ["Ps10Collection", "Element"]
 - ["Ps10Collection", "Key"]
 - ["Ps10Collection", "Value"]
-- !private ["Ps10Collection", "description"]
+- !private ["Ps10Collection", "jsonEncodedString"]
 - ["Ps10Comparable", "init"]
 - ["Ps28CustomDebugStringConvertible", "Element"]
 - ["Ps28CustomDebugStringConvertible", "Key"]
 - ["Ps28CustomDebugStringConvertible", "Value"]
-- !private ["Ps28CustomDebugStringConvertible", "description"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonEncodedString"]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - ["Ps17CustomReflectable", "Element"]
 - ["Ps17CustomReflectable", "Key"]
 - ["Ps17CustomReflectable", "Value"]
-- !private ["Ps17CustomReflectable", "description"]
 - ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "jsonEncodedString"]
 - ["Ps23CustomStringConvertible", "Element"]
 - ["Ps23CustomStringConvertible", "Key"]
 - ["Ps23CustomStringConvertible", "Value"]
-- !private ["Ps23CustomStringConvertible", "description"]
 - ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "jsonEncodedString"]
 - ["Vs10Dictionary", "Key"]
 - ["Vs10Dictionary", "Value"]
 - ["Vs10Dictionary", "deinit"]
-- ["Sd", "deinit"]
-- !private ["Ps9Equatable", "description"]
+- !private ["Vs10Dictionary", "jsonEncodedString"]
 - ["Ps9Equatable", "init"]
-- !private ["Ps5Error", "description"]
 - ["Ps25ExpressibleByArrayLiteral", "Element"]
-- !private ["Ps25ExpressibleByArrayLiteral", "description"]
+- !private ["Ps25ExpressibleByArrayLiteral", "jsonEncodedString"]
 - ["Ps30ExpressibleByDictionaryLiteral", "Key"]
 - ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "jsonEncodedString"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - ["Ps32ExpressibleByStringInterpolation", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
-- ["Sf", "deinit"]
 - ["V17PerfectHTTPServer10HTTPFilter", "contentCompression"]
-- ["V17PerfectHTTPServer11HTTPHandler", "redirect"]
 - ["V17PerfectHTTPServer11HTTPHandler", "staticFiles"]
-- !private ["P11PerfectHTTP11HTTPRequest", "deinit"]
-- !private ["P11PerfectHTTP11HTTPRequest", "params"]
 - !private ["P11PerfectHTTP12HTTPResponse", "appendBody"]
 - !private ["P11PerfectHTTP12HTTPResponse", "completed"]
 - !private ["P11PerfectHTTP12HTTPResponse", "deinit"]
 - !private ["P11PerfectHTTP12HTTPResponse", "setHeader"]
-- !private ["Ps8Hashable", "description"]
 - ["Ps8Hashable", "init"]
 - ["Ps9Indexable", "Element"]
 - ["Ps9Indexable", "Key"]
 - ["Ps9Indexable", "Value"]
-- !private ["Ps9Indexable", "description"]
+- !private ["Ps9Indexable", "jsonEncodedString"]
 - ["Ps13IndexableBase", "Element"]
 - ["Ps13IndexableBase", "Key"]
 - ["Ps13IndexableBase", "Value"]
-- !private ["Ps13IndexableBase", "description"]
+- !private ["Ps13IndexableBase", "jsonEncodedString"]
 - ["Si", "deinit"]
-- ["Vs5Int16", "deinit"]
-- ["Vs5Int32", "deinit"]
-- ["Vs5Int64", "deinit"]
-- ["Vs4Int8", "deinit"]
 - ["P10PerfectLib15JSONConvertible", "Element"]
 - ["P10PerfectLib15JSONConvertible", "Key"]
 - ["P10PerfectLib15JSONConvertible", "Value"]
-- !private ["P10PerfectLib15JSONConvertible", "description"]
 - ["P10PerfectLib15JSONConvertible", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "jsonEncodedString"]
 - ["Ps25LosslessStringConvertible", "init"]
 - ["Ps10MirrorPath", "init"]
 - ["Ps17MutableCollection", "Element"]
-- !private ["Ps17MutableCollection", "description"]
+- !private ["Ps17MutableCollection", "jsonEncodedString"]
 - ["Ps16MutableIndexable", "Element"]
-- !private ["Ps16MutableIndexable", "description"]
+- !private ["Ps16MutableIndexable", "jsonEncodedString"]
 - ["PSo8NSCoding", "init"]
 - ["PSo9NSCopying", "init"]
 - ["PSo16NSMutableCopying", "init"]
@@ -120,47 +108,37 @@ depends-member:
 - ["CSo8NSString", "init"]
 - !private ["OO11PerfectHTTP18HTTPResponseHeader4Name", "contentType"]
 - !private ["OO11PerfectHTTP18HTTPResponseHeader4Name", "deinit"]
-- !private ["C10PullServer8PSSpider", "crawlHTML"]
 - ["Ps22RandomAccessCollection", "Element"]
-- !private ["Ps22RandomAccessCollection", "description"]
+- !private ["Ps22RandomAccessCollection", "jsonEncodedString"]
 - ["Ps21RandomAccessIndexable", "Element"]
-- !private ["Ps21RandomAccessIndexable", "description"]
+- !private ["Ps21RandomAccessIndexable", "jsonEncodedString"]
 - ["Ps26RangeReplaceableCollection", "Element"]
-- !private ["Ps26RangeReplaceableCollection", "description"]
+- !private ["Ps26RangeReplaceableCollection", "jsonEncodedString"]
 - ["Ps25RangeReplaceableIndexable", "Element"]
-- !private ["Ps25RangeReplaceableIndexable", "description"]
+- !private ["Ps25RangeReplaceableIndexable", "jsonEncodedString"]
 - ["Ps8Sequence", "Element"]
 - ["Ps8Sequence", "Key"]
 - ["Ps8Sequence", "Value"]
-- !private ["Ps8Sequence", "description"]
-- !private ["O10PullServer11SpiderError", "deinit"]
-- !private ["O10PullServer11SpiderError", "description"]
+- !private ["Ps8Sequence", "jsonEncodedString"]
 - ["SS", "deinit"]
 - ["SS", "init"]
 - ["Ps16TextOutputStream", "init"]
 - ["Ps20TextOutputStreamable", "init"]
-- ["Su", "deinit"]
-- ["Vs6UInt16", "deinit"]
-- ["Vs6UInt32", "deinit"]
-- ["Vs6UInt64", "deinit"]
-- ["Vs5UInt8", "deinit"]
-- ["Sc", "deinit"]
 - ["Ps14_ArrayProtocol", "Element"]
-- !private ["Ps14_ArrayProtocol", "description"]
+- !private ["Ps14_ArrayProtocol", "jsonEncodedString"]
 - ["Ps24_DestructorSafeContainer", "Element"]
-- !private ["Ps24_DestructorSafeContainer", "description"]
+- !private ["Ps24_DestructorSafeContainer", "jsonEncodedString"]
 - ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - ["Ps35_HasCustomAnyHashableRepresentation", "init"]
-- !private ["Ps9_Hashable", "description"]
 - ["Ps9_Hashable", "init"]
 - ["Ps21_ObjectiveCBridgeable", "Element"]
 - ["Ps21_ObjectiveCBridgeable", "Key"]
 - ["Ps21_ObjectiveCBridgeable", "Value"]
-- !private ["Ps21_ObjectiveCBridgeable", "description"]
 - ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "jsonEncodedString"]
 depends-nominal:
 - "Ps9AnyObject"
 - "Sa"
@@ -168,7 +146,6 @@ depends-nominal:
 - "Ps22BidirectionalIndexable"
 - "Sb"
 - "Ps7CVarArg"
-- "Vs9Character"
 - "Ps10Collection"
 - "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
@@ -176,28 +153,20 @@ depends-nominal:
 - "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "Vs10Dictionary"
-- "Sd"
 - "Ps9Equatable"
-- !private "Ps5Error"
 - "Ps25ExpressibleByArrayLiteral"
 - "Ps30ExpressibleByDictionaryLiteral"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - "Ps32ExpressibleByStringInterpolation"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
-- "Sf"
 - "V17PerfectHTTPServer10HTTPFilter"
 - "V17PerfectHTTPServer11HTTPHandler"
-- !private "P11PerfectHTTP11HTTPRequest"
 - !private "P11PerfectHTTP12HTTPResponse"
 - "Ps8Hashable"
 - "Ps9Indexable"
 - "Ps13IndexableBase"
 - "Si"
-- "Vs5Int16"
-- "Vs5Int32"
-- "Vs5Int64"
-- "Vs4Int8"
 - "P10PerfectLib15JSONConvertible"
 - "Ps25LosslessStringConvertible"
 - "Ps10MirrorPath"
@@ -211,22 +180,14 @@ depends-nominal:
 - "PSo14NSSecureCoding"
 - "CSo8NSString"
 - !private "OO11PerfectHTTP18HTTPResponseHeader4Name"
-- !private "C10PullServer8PSSpider"
 - "Ps22RandomAccessCollection"
 - "Ps21RandomAccessIndexable"
 - "Ps26RangeReplaceableCollection"
 - "Ps25RangeReplaceableIndexable"
 - "Ps8Sequence"
-- !private "O10PullServer11SpiderError"
 - "SS"
 - "Ps16TextOutputStream"
 - "Ps20TextOutputStreamable"
-- "Su"
-- "Vs6UInt16"
-- "Vs6UInt32"
-- "Vs6UInt64"
-- "Vs5UInt8"
-- "Sc"
 - "Ps14_ArrayProtocol"
 - "Ps24_DestructorSafeContainer"
 - "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
@@ -301,4 +262,5 @@ depends-external:
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectLib.swiftmodule"
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectNet.swiftmodule"
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectThread.swiftmodule"
-interface-hash: "58cf6a6ae942295cd91b7e37666b26fa"
+- "/Users/baidu/Desktop/PullServer/Packages/mysqlclient-2.0.0/module.modulemap"
+interface-hash: "e6f1004569fb19f2680673256f8ab7bb"

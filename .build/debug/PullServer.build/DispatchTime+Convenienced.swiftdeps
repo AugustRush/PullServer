@@ -6,16 +6,16 @@ provides-member:
 - ["V8Dispatch12DispatchTime", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "+"
-- "Double"
-- "DispatchTime"
-- !private "*"
 - "ExpressibleByFloatLiteral"
+- "DispatchTime"
 - "AssignmentPrecedence"
-- "ExpressibleByIntegerLiteral"
-- !private "FloatLiteralType"
-- !private "IntegerLiteralType"
 - "Int"
+- !private "*"
+- !private "+"
+- !private "FloatLiteralType"
+- "Double"
+- !private "IntegerLiteralType"
+- "ExpressibleByIntegerLiteral"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "milliseconds"]
 - !private ["Ps16AbsoluteValuable", "seconds"]
@@ -231,4 +231,5 @@ depends-external:
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectLib.swiftmodule"
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectNet.swiftmodule"
 - "/Users/baidu/Desktop/PullServer/.build/debug/PerfectThread.swiftmodule"
+- "/Users/baidu/Desktop/PullServer/Packages/mysqlclient-2.0.0/module.modulemap"
 interface-hash: "19706ff454c5050e2a0b4932780b85f9"
